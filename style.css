@@ -136,7 +136,6 @@ a:hover, button:hover {
 .socialLinks {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 auto;
     justify-content: space-evenly;
 }
 
@@ -149,8 +148,9 @@ nav a {
 }
 
 nav a img {
-    max-width: 100%;
-    max-height: 3em;
+    width: 7.5vw;
+    max-width: 3em;
+    height: auto;
     border-radius: var(--border-radius-large);
 }
 
